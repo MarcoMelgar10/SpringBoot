@@ -6,6 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/Spring_01/demo/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_02/02/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_02/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_03/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_03/Colours/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_03/src/pom.xml" />
       </list>
     </option>
   </component>

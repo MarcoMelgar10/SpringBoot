@@ -12,7 +12,7 @@ public class HelloWordController {
     public String HelloWord(@PathVariable String nombre){
         return "Hello "  + nombre;
     }
-    @GetMapping(path = "/loop")
+    @GetMapping(path = "/loop2")
     public int [] AmmountWords(){
        int [] ammount = new int[10];
         for (int i = 0; i < ammount.length; i++) {
