@@ -10,6 +10,7 @@
         <module name="01" />
         <module name="02" />
         <module name="03" />
+        <module name="Spring_04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="01" options="-parameters" />
       <module name="02" options="-parameters" />
       <module name="03" options="-parameters" />
+      <module name="Spring_04" options="-parameters" />
     </option>
   </component>
 </project>
