@@ -1,5 +1,6 @@
 package quickstart;
 
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,6 +19,7 @@ public class HelloWordController {
         for (int i = 0; i < ammount.length; i++) {
             ammount[i] = i;
         }
+        System.out.println("hello");
         return ammount;
     }
 
