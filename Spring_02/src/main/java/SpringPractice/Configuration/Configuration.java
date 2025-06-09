@@ -1,14 +1,13 @@
-package SpringPractice._2.Configuration;
+package main.java.SpringPractice.Configuration;
 
-import SpringPractice._2.Car.Ferrari;
-import SpringPractice._2.Car.Interface.Car;
-import SpringPractice._2.Car.Mazda;
-import SpringPractice._2.Car.Mercedes;
+import main.java.SpringPractice.Car.Ferrari;
+import main.java.SpringPractice.Car.Interface.Car;
+import main.java.SpringPractice.Car.Mazda;
+import main.java.SpringPractice.Car.Mercedes;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 
 @Service

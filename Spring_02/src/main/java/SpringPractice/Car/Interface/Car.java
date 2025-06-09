@@ -1,4 +1,4 @@
-package SpringPractice._2.Car.Interface;
+package main.java.SpringPractice.Car.Interface;
 import java.util.List;
 
 public interface Car {

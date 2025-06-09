@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="practice1" />
         <module name="01" />
+        <module name="practice2" />
         <module name="02" />
         <module name="03" />
         <module name="Spring_04" />
+        <module name="practice3" />
+        <module name="practice4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +27,10 @@
       <module name="02" options="-parameters" />
       <module name="03" options="-parameters" />
       <module name="Spring_04" options="-parameters" />
+      <module name="practice1" options="-parameters" />
+      <module name="practice2" options="-parameters" />
+      <module name="practice3" options="-parameters" />
+      <module name="practice4" options="-parameters" />
     </option>
   </component>
 </project>

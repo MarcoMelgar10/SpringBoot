@@ -1,23 +1,22 @@
-package SpringPractice._2.Car;
+package main.java.SpringPractice.Car;
 
-import SpringPractice._2.Car.Interface.Car;
+import main.java.SpringPractice.Car.Interface.Car;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@AllArgsConstructor
 @Data
-public class Mercedes implements Car {
+@AllArgsConstructor
+public class Ferrari implements Car {
     private int licensePlate;
     private String model;
     private Date age;
 
     @Override
     public void acelerar() {
-        System.out.println("Mercedes have been acelerated...");;
+        System.out.println("Ferrari is aceleranding");
     }
 
     @Override
@@ -30,6 +29,4 @@ public class Mercedes implements Car {
             }
         }
     }
-
-
 }

@@ -1,5 +1,6 @@
-package SpringPractice._2.Car;
-import SpringPractice._2.Car.Interface.Car;
+package main.java.SpringPractice.Car;
+
+import main.java.SpringPractice.Car.Interface.Car;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -7,17 +8,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-
 @AllArgsConstructor
 @Data
-public class Mazda implements Car {
+public class Mercedes implements Car {
     private int licensePlate;
     private String model;
     private Date age;
 
     @Override
     public void acelerar() {
-        System.out.println("Mazda have been acelerated...");;
+        System.out.println("Mercedes have been acelerated...");;
     }
 
     @Override
