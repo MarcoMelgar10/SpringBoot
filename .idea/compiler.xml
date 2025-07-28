@@ -13,9 +13,20 @@
         <module name="02" />
         <module name="03" />
         <module name="Spring_04" />
-        <module name="spring_05" />
         <module name="practice3" />
+        <module name="practice 5" />
         <module name="practice4" />
+      </profile>
+      <profile name="Annotation profile for Eighth project" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="practice 8" />
+        <module name="practice6" />
+        <module name="practice7" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,10 +39,13 @@
       <module name="02" options="-parameters" />
       <module name="03" options="-parameters" />
       <module name="Spring_04" options="-parameters" />
+      <module name="practice 8" options="-parameters" />
       <module name="practice1" options="-parameters" />
       <module name="practice2" options="-parameters" />
       <module name="practice3" options="-parameters" />
       <module name="practice4" options="-parameters" />
+      <module name="practice6" options="-parameters" />
+      <module name="practice7" options="-parameters" />
     </option>
   </component>
 </project>

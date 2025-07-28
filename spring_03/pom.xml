@@ -9,10 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>SpringPractice</groupId>
-    <artifactId>02</artifactId>
+    <artifactId>practice3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>Practice project for Spring Boot</description>
+    <name>Third project</name>
+    <description>Practice project with ColorApplication</description>
     <url/>
     <licenses>
         <license/>
